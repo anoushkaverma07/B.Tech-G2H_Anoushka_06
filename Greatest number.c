@@ -21,5 +21,5 @@ int main()
       printf("%d is the greatest no.",c);
    }
    return 0;
-
 }
+
