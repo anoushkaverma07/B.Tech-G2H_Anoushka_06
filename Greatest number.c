@@ -8,11 +8,11 @@ int main()
    scanf ("%d",&b);
    printf("Enter value of c: ");
    scanf("%d",&c);
-   if (a>b && a>c)
+   if (a>=b && a>=c)
    {
       printf("%d is the greatest no.",a);
    }
-   else if (b>a && b>c)
+   else if (b>=a && b>=c)
    {
       printf("%d is the greatest no.",b);
    }
@@ -21,4 +21,5 @@ int main()
       printf("%d is the greatest no.",c);
    }
    return 0;
+
 }
